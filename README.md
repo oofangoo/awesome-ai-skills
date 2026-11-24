@@ -80,6 +80,7 @@ Skills for running a social media channel as a series of small experiments. They
 - [kien-thai](https://github.com/chakrit/kien-thai/tree/main/skills/kien-thai) - Drafts and edits Thai prose with guidance on sentence rhythm, word order and register. By Chakrit Wichian, MIT.
 - [thai-writing](https://github.com/Sophon-Kr/thai-native/tree/main/skills/thai-writing) - Adapts Thai vocabulary, forms of address and polite particles to the reader and setting, from team chats to formal correspondence. By Sophon Kraipinit and the thai-native contributors, MIT.
 - [thai-humanizer](https://github.com/citelogics-th/thai-humanizer) - Revises repetitive phrasing and literal translations in Thai drafts while preserving the author’s voice. By the thai-humanizer contributors, MIT.
+- [thaiproof](https://github.com/nuttakulsv/thaiproof/tree/main/skills/thaiproof) - Checks Thai drafts for spelling, loanwords and sentence-final particles, and flags phrasing for an editor to review. By nuttakulsv, MIT.
 
 ## Ideas and marketing
 
