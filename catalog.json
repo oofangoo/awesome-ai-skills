@@ -1,0 +1,62 @@
+{
+  "kit": [
+    "channel-audit",
+    "channel-setup",
+    "content-plan",
+    "cut-shorts-from-long-video",
+    "fact-check",
+    "find-the-angle",
+    "find-what-works",
+    "fresh-eyes-check",
+    "hook",
+    "make-image",
+    "make-narrated-video",
+    "measure",
+    "model-a-proven-post",
+    "niche-research",
+    "packaging",
+    "paid-test",
+    "reply-to-comments",
+    "script-short-video",
+    "ship-and-verify",
+    "strategy",
+    "weekly-review",
+    "write-post"
+  ],
+  "extra": [
+    {
+      "name": "higgsfield-video-planning",
+      "section": "video-production",
+      "description": "Turn a video idea into a brief with timed action, reference roles, shot prompts and a production handoff."
+    },
+    {
+      "name": "higgsfield-video-production",
+      "section": "video-production",
+      "description": "Carry a brief through generation, recovery, download and review, keeping \"rendered\" apart from \"accepted\"."
+    }
+  ],
+  "descriptions": {
+    "channel-audit": "Take stock of a channel before changing anything: its usual numbers, its weak step, and what cannot be seen.",
+    "channel-setup": "Onboard a channel in seven ordered steps, from checking what the agent can reach to proving one piece end to end.",
+    "content-plan": "Turn a strategy into a rolling two-to-four-week plan in which every slot is a recorded bet.",
+    "find-the-angle": "Find the fresh, true thing to say about a subject before making anything.",
+    "find-what-works": "Study other accounts' unusual hits, with links and numbers, to find what to model pieces on.",
+    "niche-research": "Size up a channel idea before committing: the audience, who serves it, the gap, the cost and the odds.",
+    "strategy": "Turn an audit and a study of proven posts into one to three bets with targets, stop rules and a format sheet.",
+    "cut-shorts-from-long-video": "Find the moments in a long video that can stand alone as short videos.",
+    "hook": "Write the opening line or first second that makes someone stay.",
+    "make-image": "Make still images with an AI image tool, and check them properly.",
+    "make-narrated-video": "Cut a narrated video from still images, voice, captions and sound.",
+    "model-a-proven-post": "Start from a post that already worked for a comparable account, keep what made it work, change the rest, and show the two side by side.",
+    "packaging": "Make the title, cover image and caption that decide whether a piece gets opened.",
+    "script-short-video": "Write a short video beat by beat, so it works with the sound off.",
+    "write-post": "Write a text or image post that is worth a stranger's time.",
+    "fact-check": "Check the few claims a piece stands on against their original sources.",
+    "fresh-eyes-check": "Get a second look from someone who did not make the piece, with a verdict that can be \"dull\".",
+    "reply-to-comments": "Answer real comments on a channel's own posts, and leave the rest alone.",
+    "ship-and-verify": "Publish or schedule a piece, then prove that what went live is what was made.",
+    "measure": "Read a post's numbers at the right age and record them honestly.",
+    "paid-test": "Spend a small ads budget as an experiment with a stop rule.",
+    "weekly-review": "Close the week: read the results, update what works, rewrite the strategy, tell the owner."
+  }
+}
