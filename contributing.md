@@ -20,6 +20,10 @@ This list is a curation, not a collection. An entry belongs here only if someone
 - Take the method, not the wording. Do not copy text unless the licence allows it, and then say so.
 - No passwords, keys, private names, account names or anything about a real person.
 
+## Lines written by a script
+
+Entries between `<!-- catalog:… -->` marks in the readme, and the folders named under `kit` in `catalog.json`, are kept up to date by a script from a private source. Changes made to them by hand are overwritten. Suggest the change in an issue.
+
 ## Before you open a pull request
 
 - Check every link opens.

@@ -24,6 +24,7 @@ Skills for running a social media channel as a series of small experiments. They
 
 ### Plan
 
+<!-- catalog:plan -->
 - [channel-audit](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/channel-audit) - Take stock of a channel before changing anything: its usual numbers, its weak step, and what cannot be seen.
 - [channel-setup](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/channel-setup) - Onboard a channel in seven ordered steps, from checking what the agent can reach to proving one piece end to end.
 - [content-plan](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/content-plan) - Turn a strategy into a rolling two-to-four-week plan in which every slot is a recorded bet.
@@ -31,9 +32,11 @@ Skills for running a social media channel as a series of small experiments. They
 - [find-what-works](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/find-what-works) - Study other accounts' unusual hits, with links and numbers, to find what to model pieces on.
 - [niche-research](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/niche-research) - Size up a channel idea before committing: the audience, who serves it, the gap, the cost and the odds.
 - [strategy](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/strategy) - Turn an audit and a study of proven posts into one to three bets with targets, stop rules and a format sheet.
+<!-- /catalog:plan -->
 
 ### Make
 
+<!-- catalog:make -->
 - [cut-shorts-from-long-video](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/cut-shorts-from-long-video) - Find the moments in a long video that can stand alone as short videos.
 - [hook](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/hook) - Write the opening line or first second that makes someone stay.
 - [make-image](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/make-image) - Make still images with an AI image tool, and check them properly.
@@ -42,24 +45,31 @@ Skills for running a social media channel as a series of small experiments. They
 - [packaging](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/packaging) - Make the title, cover image and caption that decide whether a piece gets opened.
 - [script-short-video](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/script-short-video) - Write a short video beat by beat, so it works with the sound off.
 - [write-post](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/write-post) - Write a text or image post that is worth a stranger's time.
+<!-- /catalog:make -->
 
 ### Check and ship
 
+<!-- catalog:check-and-ship -->
 - [fact-check](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/fact-check) - Check the few claims a piece stands on against their original sources.
 - [fresh-eyes-check](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/fresh-eyes-check) - Get a second look from someone who did not make the piece, with a verdict that can be "dull".
 - [reply-to-comments](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/reply-to-comments) - Answer real comments on a channel's own posts, and leave the rest alone.
 - [ship-and-verify](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/ship-and-verify) - Publish or schedule a piece, then prove that what went live is what was made.
+<!-- /catalog:check-and-ship -->
 
 ### Learn and spend
 
+<!-- catalog:learn-and-spend -->
 - [measure](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/measure) - Read a post's numbers at the right age and record them honestly.
 - [paid-test](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/paid-test) - Spend a small ads budget as an experiment with a stop rule.
 - [weekly-review](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/weekly-review) - Close the week: read the results, update what works, rewrite the strategy, tell the owner.
+<!-- /catalog:learn-and-spend -->
 
 ## Video production
 
+<!-- catalog:video-production -->
 - [higgsfield-video-planning](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/higgsfield-video-planning) - Turn a video idea into a brief with timed action, reference roles, shot prompts and a production handoff.
 - [higgsfield-video-production](https://github.com/oofangoo/awesome-ai-skills/tree/main/skills/higgsfield-video-production) - Carry a brief through generation, recovery, download and review, keeping "rendered" apart from "accepted".
+<!-- /catalog:video-production -->
 
 ## Story and writing
 
