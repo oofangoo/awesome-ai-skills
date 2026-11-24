@@ -13,6 +13,7 @@ A skill is a folder with a `SKILL.md` file: when to use it, the steps, and the c
 	- [Learn and spend](#learn-and-spend)
 - [Video production](#video-production)
 - [Story and writing](#story-and-writing)
+	- [Thai writing](#thai-writing)
 - [Ideas and marketing](#ideas-and-marketing)
 - [Building skills](#building-skills)
 - [Sources behind the skills here](#sources-behind-the-skills-here)
@@ -74,8 +75,11 @@ Skills for running a social media channel as a series of small experiments. They
 ## Story and writing
 
 - [Story Skills](https://github.com/danjdewhurst/story-skills) - Eighteen skills for planning, drafting and revising fiction, from premise and plot to line editing and a simulated reader panel. By Daniel Dewhurst, MIT.
+### Thai writing
+
 - [kien-thai](https://github.com/chakrit/kien-thai/tree/main/skills/kien-thai) - Drafts and edits Thai prose with guidance on sentence rhythm, word order and register. By Chakrit Wichian, MIT.
 - [thai-writing](https://github.com/Sophon-Kr/thai-native/tree/main/skills/thai-writing) - Adapts Thai vocabulary, forms of address and polite particles to the reader and setting, from team chats to formal correspondence. By Sophon Kraipinit and the thai-native contributors, MIT.
+- [thai-humanizer](https://github.com/citelogics-th/thai-humanizer) - Revises repetitive phrasing and literal translations in Thai drafts while preserving the author’s voice. By the thai-humanizer contributors, MIT.
 
 ## Ideas and marketing
 
