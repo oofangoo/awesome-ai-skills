@@ -74,6 +74,7 @@ Skills for running a social media channel as a series of small experiments. They
 ## Story and writing
 
 - [Story Skills](https://github.com/danjdewhurst/story-skills) - Eighteen skills for planning, drafting and revising fiction, from premise and plot to line editing and a simulated reader panel. By Daniel Dewhurst, MIT.
+- [kien-thai](https://github.com/chakrit/kien-thai/tree/main/skills/kien-thai) - Drafts and edits Thai prose with guidance on sentence rhythm, word order and register. By Chakrit Wichian, MIT.
 
 ## Ideas and marketing
 
