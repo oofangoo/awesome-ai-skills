@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Video Production"
+  short_description: "Produce, resume and review Higgsfield video projects"
+  default_prompt: "Use $higgsfield-video-production to execute this video brief through an allowed Higgsfield route and review the actual result."
