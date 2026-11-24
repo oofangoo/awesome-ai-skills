@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "project": null,
+  "shot_id": null,
+  "version": 1,
+  "state": "planned",
+  "prompt_file": null,
+  "references": [],
+  "requested_settings": {
+    "model": null,
+    "duration_seconds": null,
+    "aspect_ratio": null,
+    "resolution": null,
+    "audio": null,
+    "count": 1
+  },
+  "verified_settings": null,
+  "route": null,
+  "generation_authority": {
+    "scope": null,
+    "source": null,
+    "max_credits": null,
+    "observed_at": null
+  },
+  "quote": {
+    "credits": null,
+    "observed_at": null,
+    "source": null
+  },
+  "job_id": null,
+  "submitted_at": null,
+  "result_url": null,
+  "source_file": null,
+  "master_file": null,
+  "sha256": null,
+  "technical_review": {
+    "status": "not_checked",
+    "evidence": []
+  },
+  "creative_review": {
+    "status": "not_reviewed",
+    "notes": null,
+    "evidence": []
+  },
+  "audio_review": {
+    "status": "not_listened",
+    "notes": null
+  },
+  "user_acceptance": {
+    "status": "unknown",
+    "feedback": null,
+    "version": null
+  },
+  "publication": {
+    "status": "not_requested",
+    "url": null,
+    "verified_at": null
+  },
+  "next_action": null
+}

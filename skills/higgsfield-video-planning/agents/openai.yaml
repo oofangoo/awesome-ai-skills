@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Video Planning"
+  short_description: "Turn video ideas into executable Higgsfield briefs"
+  default_prompt: "Use $higgsfield-video-planning to plan this video with timed actions, reference roles, prompts and a production handoff."
