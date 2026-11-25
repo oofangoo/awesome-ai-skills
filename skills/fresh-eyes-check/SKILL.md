@@ -4,8 +4,8 @@ category: check
 when: [check]
 every_piece: yes
 description: A second look at a finished piece by someone who did not make it. Use before anything ships.
-version: 4
-last_reviewed: 2026-11-24
+version: 5
+last_reviewed: 2026-11-25
 ---
 
 # Fresh-eyes check
@@ -16,7 +16,7 @@ A piece is finished and about to ship. The maker cannot see its own mistakes. Th
 
 ## What the checker gets
 
-Only these: the finished piece exactly as it will ship, the charter's voice and "never" sections, the checks from the skills that made it, and the proven post it is modelled on, if it has one. Not the drafts, the strategy or the maker's reasons.
+Only these: the finished piece exactly as it will ship, the charter's voice and "never" sections, `look.md` with two of its reference pieces, the checks from the skills that made it, and the proven post it is modelled on, if it has one. Not the drafts, the strategy or the maker's reasons.
 
 ## Steps for the checker
 
@@ -29,7 +29,7 @@ Only these: the finished piece exactly as it will ship, the charter's voice and 
    - it has the same shape as the channel's last three pieces
    If there is a proven post beside it, say which of the two you would rather read, and the one thing theirs has that ours lacks.
 3. **Is it true?** Every fact, number and quote has a source you can open (`fact-check` skill). Nothing is invented.
-4. **Is it ours?** It sounds like the charter's voice. It breaks none of the charter's "never" lines.
+4. **Is it ours?** It sounds like the charter's voice. It breaks none of the charter's "never" lines. **It looks like ours:** put its first, middle and last frame beside two reference pieces from `look.md`, at phone size. Same art style, same characters, same colours and type? A piece that a follower would not know as ours gets `fix`, however good it is.
 5. **Is it allowed?** No bait for likes or shares, nothing misleading, nothing copied: no sentence, picture or story taken from the proven post. AI-made content is labelled where the platform asks.
 6. **Does it read as written by someone who knows?** Flag these, and ask for a fact in their place. Swapping one word for another is not a fix:
    - details that sound exact but come from nowhere
@@ -65,6 +65,7 @@ Only these: the finished piece exactly as it will ship, the charter's voice and 
 
 ## Known problems
 
+- 2026-11-25: two pieces passed checks that never compared them with the channel's published work. One was flat vector art where the channel uses storybook illustration; one was a realistic animal where the channel uses a round cartoon one. Hence the look check in step 4.
 - 2026-11-24: this check passed six pieces that the owner then called bland. Every fact and line was fine; nobody would have passed them on. Hence step 2 and the "dull" verdict.
 
 ## Results

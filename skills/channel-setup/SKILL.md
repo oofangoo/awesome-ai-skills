@@ -3,8 +3,8 @@ name: channel-setup
 category: plan
 when: [setup]
 description: Onboard a channel with the owner so it can then run by itself, one step at a time - diagnose what works from where you run and give the owner one list to switch on, audit and research, agree the charter, wire every route, plan from proven posts, start the workflows, prove one piece. Use while channel.json says setup.
-version: 7
-last_reviewed: 2026-11-24
+version: 8
+last_reviewed: 2026-11-25
 ---
 
 # Channel setup
@@ -60,31 +60,32 @@ The owner may run you in any app. So the first job is to find out what you can d
 
 10. **Write `charter.md` and `channel.json` from the answers.** One platform to start. One or two formats, at a rhythm that can be kept up. One number and one date, with 30- and 90-day checkpoints. The monthly caps. `approve-each` or `auto` for every format. What reaches the owner, and where.
 11. **Name the material.** What real things will the pieces be made from: things that happened, readers' questions, the channel's own numbers, public sources? And why would a stranger listen to this account? A channel with neither makes posts anyone could have made.
-12. **Read it back.** Commit as `[owner]` after the owner's yes. Remove the template line.
+12. **Write the house look, `look.md`.** Start from what is already published or approved: open the pieces, not notes about them. List them as reference pieces, with where each one's source files are kept. Write what stays the same (art style, characters, colours, type, layout, sound) and what never appears. Add the owner's earlier style decisions. A new channel with nothing published yet makes one sample piece for this, and the owner picks.
+13. **Read both back.** Commit `charter.md`, `channel.json` and `look.md` as `[owner]` after the owner's yes. Remove the template lines.
 
 ## Part 4. Wire and test every route
 
-13. **List the jobs this channel needs:** publish, measure, reply, make-image, make-video, voice, edit, store, ads, research.
-14. **Pick a tool for each** from `kit/tools/` by its "Best at" line and cost. **Pick the route, best first:** a connector the owner approves once; a key or API; a command-line tool signed in where the agent runs; a signed-in browser; the owner by hand. By hand is a stopgap, never for publishing or measuring.
-15. **Write each route in `access.json`,** and give the owner the one-time steps as one list. No password, key or token goes in the chat or a repo.
-16. **Test every route for real,** from the place and the agent that will do the work, and write `tested_from`. If the scheduled workflows will run in another app than this conversation, test from there too:
+14. **List the jobs this channel needs:** publish, measure, reply, make-image, make-video, voice, edit, store, ads, research.
+15. **Pick a tool for each** from `kit/tools/` by its "Best at" line and cost. **Pick the route, best first:** a connector the owner approves once; a key or API; a command-line tool signed in where the agent runs; a signed-in browser; the owner by hand. By hand is a stopgap, never for publishing or measuring.
+16. **Write each route in `access.json`,** and give the owner the one-time steps as one list. No password, key or token goes in the chat or a repo.
+17. **Test every route for real,** from the place and the agent that will do the work, and write `tested_from`. If the scheduled workflows will run in another app than this conversation, test from there too:
     - **read:** fetch a number you can also see on the platform's own page, and compare
     - **write:** create a draft, private or unlisted item, read it back, delete it
     - **make:** produce one real piece and check it
     - **ads:** read-only first
     Mark it `working` only then, with the date and what you did and saw. Give each must-have job a fallback.
-17. **Settle two things that are easy to miss.** Where finished pictures and video get a public web address, if the publishing tool needs a link. And how the owner says yes to a piece that is not `auto`.
+18. **Settle two things that are easy to miss.** Where finished pictures and video get a public web address, if the publishing tool needs a link. And how the owner says yes to a piece that is not `auto`.
 
 ## Part 5. Plan from proven posts
 
-18. **Write `strategy.md`** (`strategy`): the weak step, one to three bets, and the format sheet.
-19. **Write `plan.md`** (`content-plan`), and record the first week's bets.
-20. **Make the first pieces** (`model-a-proven-post`), each from a row in `work/outliers.md`.
-21. **Send the owner the review sheet:** each piece next to the post it is modelled on. One message, one answer.
+19. **Write `strategy.md`** (`strategy`): the weak step, one to three bets, and the format sheet.
+20. **Write `plan.md`** (`content-plan`), and record the first week's bets.
+21. **Make the first pieces** (`model-a-proven-post`), each from a row in `work/outliers.md`.
+22. **Send the owner the review sheet:** each piece next to the post it is modelled on. One message, one answer.
 
 ## Part 6. Start the workflows
 
-22. **The channel runs as a few scheduled workflows,** each with a standing instruction in `workflows/`:
+23. **The channel runs as a few scheduled workflows,** each with a standing instruction in `workflows/`:
 
     | Workflow | Does | Usual rhythm |
     |---|---|---|
@@ -93,19 +94,19 @@ The owner may run you in any app. So the first job is to find out what you can d
     | `review` | Closes the week, updates plays, rewrites the strategy and plan, sends the digest | Weekly |
     | `audit` | Re-tests every route, refreshes the research and the proven posts, checks the checkpoints | Monthly |
 
-23. **Adjust the instructions** in `workflows/` with the owner. They are the owner's pages: commit as `[owner]` after a yes.
-24. **Create one scheduled task per workflow** in the app the agent runs in. Its prompt is one line: "Read `workflows/<name>.md` in [repo] and do it." Give it the repos and connectors that workflow needs, and nothing more.
-25. **Watch each one run once by itself.** It must start on time, in the right time zone, reach the repos and tools, and push. Write the schedule in `access.json` with `tested_at`.
+24. **Adjust the instructions** in `workflows/` with the owner. They are the owner's pages: commit as `[owner]` after a yes.
+25. **Create one scheduled task per workflow** in the app the agent runs in. Its prompt is one line: "Read `workflows/<name>.md` in [repo] and do it." Give it the repos and connectors that workflow needs, and nothing more.
+26. **Watch each one run once by itself.** It must start on time, in the right time zone, reach the repos and tools, and push. Write the schedule in `access.json` with `tested_at`.
 
 ## Part 7. Prove it end to end
 
-26. **Take one real piece per format through the whole loop:** bet, make, fresh-eyes check, the owner's yes, ship, and a reading a day later. Put the experiment's id under `end_to_end` in `access.json`.
-27. **Run `dcos ready --channel .` until it passes.** Then the owner sets `"status": "active"`.
+27. **Take one real piece per format through the whole loop:** bet, make, fresh-eyes check, the owner's yes, ship, and a reading a day later. Put the experiment's id under `end_to_end` in `access.json`.
+28. **Run `dcos ready --channel .` until it passes.** Then the owner sets `"status": "active"`.
 
 ## Part 8. Hand over
 
-28. Bring `state.md` up to date. Tell the owner in a few lines what now runs by itself and when, and what will still reach them.
-29. Leave a note in `outbox/` for every route and schedule you tested: what worked, what did not, with dates.
+29. Bring `state.md` up to date. Tell the owner in a few lines what now runs by itself and when, and what will still reach them.
+30. Leave a note in `outbox/` for every route and schedule you tested: what worked, what did not, with dates.
 
 ## Checks before you call it done
 
@@ -126,6 +127,7 @@ The owner may run you in any app. So the first job is to find out what you can d
 - 2026-11-24: an agent could not open other accounts' posts where it ran, and used news articles and studies in their place. The owner called the pieces bland. Hence part 1, steps 5 and 11.
 - 2026-11-24: the app an agent ran in had no publishing connector and no working browser. The routes were marked `working` from tests in a different app, so nothing warned it until the first piece was due to ship. Hence part 1: the agent diagnoses itself wherever it is started.
 - 2026-11-24: an agent whose browser failed wrote every platform job as a browser route and gave the owner "pending a working connection" three times. It never tried the key route, which its app could have used. It also told the owner to use a menu the owner's app does not have, twice. Hence part 1, steps 6, 8 and 9.
+- 2026-11-25: two channels made pieces that did not look like anything they had published. Neither had its look written down in one place: one had it only in an old decision note, one had a playbook that allowed "photorealistic or cartoon". Hence step 12 and `look.md`.
 - 2026-11-24: an agent opened with only a repo link asked what the owner wanted, though `state.md` said. Told to resume, it tried one browser, then told the owner to start another chat and paste a prompt; then asked the owner to open a page and read out a name. The built-in browser it had listed worked first time, once the owner named it. Then it stopped after one check and waited for "keep going". Six steers in one sitting. Hence `START.md`, "Run from start to finish", and step 6.
 
 ## Results
